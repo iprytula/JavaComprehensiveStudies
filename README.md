@@ -24,10 +24,6 @@ To use the programs in this repository:
 
 Contributions are welcome! If you have improvements or corrections to the exercises, feel free to fork this repository and open a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
-
 ## Acknowledgments
 
 - **Author**: Christian Ullenboom for writing this comprehensive guide to Java.
