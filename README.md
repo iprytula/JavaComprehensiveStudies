@@ -9,7 +9,6 @@ This repository is dedicated to my journey through "Java: The Comprehensive Guid
 ## Repository Structure
 
 ### Exercises about the Java Language and Object Orientation
-
 1. Java ecosystem
 2. Imperative programming
 3. Classes, objects, packages

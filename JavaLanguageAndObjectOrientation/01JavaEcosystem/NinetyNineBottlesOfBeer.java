@@ -1,6 +1,6 @@
 /**
- * * Prints a version of 99 Bottles of Beer * @version 2.0 18-01-2022 * @author
- * Christian Ullenboom
+ * A little nonsense class, prints a version of 99 Bottles of Beer *
+ * Created to check if java works in my machine after installation
  */
 public class NinetyNineBottlesOfBeer {
   public static void main(String[] args) {
