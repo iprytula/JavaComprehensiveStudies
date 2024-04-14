@@ -8,9 +8,35 @@ This repository is dedicated to my journey through "Java: The Comprehensive Guid
 
 ## Repository Structure
 
-- **Chapter 1 - Java Basics**: Basic concepts including classes, objects, and data types.
-- **Chapter 2 - Advanced Topics**: More complex topics such as multithreading and databases.
-- **Practical Examples**: Exercises and sample code from the book to reinforce learning.
+### Exercises about the Java Language and Object Orientation
+
+1. Java ecosystem
+2. Imperative programming
+3. Classes, objects, packages
+4. Arrays
+5. Character and String Processing
+6. Writing your own classes
+7. Records, Interfaces, Enumerations, Sealed Classes
+8. Nested.types
+9. Exception handling
+10. Lambda expressions and functional programming
+
+### Exercises about the Java Standard Library
+1. Special types from the Java Class Library
+2. Advanced string processing
+3. Mathematics
+4. Locale, date and time
+5. Concurrent Programming with threads
+6. Data Structures and algorithms
+7. Java Stream API
+8. Files, directories and file access
+9. Input/Output Streams
+10. Network programming
+11. Process XML, JSON and other data formats
+12. Database accesses with JDBC
+13. Operating System access
+14. Reflection, Annotations, and JavaBeans
+15. Testing with JUnit
 
 ## How to Use
 
