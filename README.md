@@ -17,7 +17,7 @@ This repository is dedicated to my journey through "Java: The Comprehensive Guid
 5. Character and String Processing
 6. Writing your own classes
 7. Records, Interfaces, Enumerations, Sealed Classes
-8. Nested.types
+8. Nested types
 9. Exception handling
 10. Lambda expressions and functional programming
 
