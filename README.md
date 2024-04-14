@@ -9,6 +9,7 @@ This repository is dedicated to my journey through "Java: The Comprehensive Guid
 ## Repository Structure
 
 ### Exercises about the Java Language and Object Orientation
+All exercises you can find here: https://tutego.de/javabuch/aufgaben/imperativ_en.html
 
 1. Java ecosystem
 2. Imperative programming
