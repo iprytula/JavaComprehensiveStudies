@@ -3,7 +3,7 @@ public class TreasureChest {
   public final int gemstoneWeight;
 
   private TreasureChest(int goldDoubloonWeight, int gemstoneWeight) {
-    if ( goldDoubloonWeight < 0 || gemstoneWeight < 0 ) {
+    if (goldDoubloonWeight < 0 || gemstoneWeight < 0) {
       throw new IllegalArgumentException( "Weight can't be negative" );
     }
 
