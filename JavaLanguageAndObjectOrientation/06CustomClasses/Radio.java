@@ -1,9 +1,8 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Radio {
+public class Radio extends ElectronicDevice {
 
-  private boolean isOn;
   private int volume;
   private double frequency;
   private Modulation modulation;
@@ -34,18 +33,6 @@ public class Radio {
     stations.put("Jazz FM", 91.1);
     stations.put("Rock 101", 102.0);
     stations.put("Classical Archives", 98.5);
-  }
-
-  public void on() {
-    isOn = true;
-  }
-
-  public void off() {
-    isOn = false;
-  }
-
-  public boolean isOn() {
-    return isOn;
   }
 
   public int getVolume() {
@@ -89,10 +76,6 @@ public class Radio {
 
   public Modulation getModulation() {
     return modulation;
-  }
-
-  public void setOn(boolean isOn) {
-    this.isOn = isOn;
   }
 
   public void setVolume(int volume) {
