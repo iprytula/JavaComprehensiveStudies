@@ -3,9 +3,11 @@ import java.util.ArrayList;
 public class Application {
   public static void main(String[] args) {
     Radio grandmasOldRadio = new Radio();
+    grandmasOldRadio.on();
     Radio myNewRadio = new Radio();
-    // myNewRadio.on();
+    myNewRadio.on();
     Radio anotherOneRadio = new Radio();
+    anotherOneRadio.on();
 
     // System.out.println(grandmasOldRadio.isOn());
     // System.out.println(grandmasOldRadio.isOn());
@@ -43,12 +45,24 @@ public class Application {
     secondShip.load(new TV());
 
     ElectronicDevice iceMachine = new IceMachine();
-    // iceMachine.on();
+    iceMachine.on();
 
     secondShip.load(iceMachine);
     secondShip.load(new IceMachine());
 
+    Firebox firebox = new Firebox();
+    Firebox anotherFirebox = new Firebox();
+    firstShip.load(firebox);
+    secondShip.load(anotherFirebox);
+
     System.out.println(firstShip);
     System.out.println(secondShip);
+    firstShip.holiday();
+    secondShip.holiday();
+    System.out.println(firstShip);
+    System.out.println(secondShip);
+
+    firstShip.printLoadingList();
+    secondShip.printLoadingList();
   }
 }
