@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 
+import devices.ElectronicDevice;
+import devices.Radio;
+import devices.TV;
+
 public class Ship {
 
   public static class AsciiArt {
